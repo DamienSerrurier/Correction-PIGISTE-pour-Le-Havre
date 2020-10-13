@@ -1,0 +1,190 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto;
+}
+
+.div-img{
+    grid-column: 2/11;
+    grid-row: 1;
+}
+
+.div-img img{
+    width: 100%;
+    height: auto;
+}
+
+.firstColumn {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    grid-column: 2/5;
+    grid-row: 2;
+    text-transform: uppercase;
+    font-size: 0.75em;
+}
+
+.firstColumn h1 {
+    color: #38a4f3;
+}
+
+.firstColumn h2 {
+    font-size: 1.65em;
+    margin: 0em;
+    width: 90%;
+}
+
+.firstColumn h3 {
+    font-size: 1.4em;
+    margin: 0em;
+    width: 82%;
+}
+
+.firstColumn h6 {
+    
+    text-transform: none;
+    font-size: 1em;
+    margin: 0em;
+    margin-top: 0.4em;
+    width: 78%;
+    
+}
+
+.div-img1 img {
+    width: 90%;
+    height: auto;
+}
+
+.blueLabel {
+    position: absolute;
+    color: #ffffff;
+    background-color: #1c93ee;
+    max-width: max-content;
+    padding: 0.5em;
+    margin-top: -2.6em;
+}
+
+.blueLabel1 {
+    color: #ffffff;
+    background-color: #1c93ee;
+    max-width: max-content;
+    padding: 0.5em;
+    margin-top: 0.8em;
+}
+
+.secondColumn {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    grid-column: 5/9;
+    grid-row: 2;
+    text-transform: uppercase;
+    font-size: 0.75em;
+}
+
+.secondColumn h1 {
+    color: #38a4f3;
+}
+
+.secondColumn h2 {
+    font-size: 1.65em;
+    margin: 0em;
+    width: 66%;
+    
+}
+
+.secondColumn h3 {
+    font-size: 1.4em;
+    margin: 0em;
+    width: 68%;
+    
+}
+
+.secondColumn h4 {
+    text-transform: none;
+    font-size: 1.4em;
+    margin: 0em;
+    width: 68%;
+    
+}
+
+.secondColumn h5 {
+    text-transform: none;
+    font-size: 1.2em;
+    margin: 0em;
+    width: 68%;
+    
+}
+
+.secondColumn h6 {
+    font-weight: bold;
+    text-transform: none;
+    font-size: 1.1em;
+    margin: 0em;
+    margin-top: 0.4em;
+    width: 62%;
+}
+
+.div-img2 img {
+    width: 68%;
+    height: auto;
+}
+
+.redLabel {
+    position: absolute;
+    color: #ffffff;
+    background-color: #c12051;
+    max-width: max-content;
+    padding: 0.5em;
+    margin-top: -2.6em;
+}
+
+.redLabel1 {
+    color: #ffffff;
+    background-color: #c12051;
+    max-width: max-content;
+    padding: 0.5em;
+    margin-top: 0.8em;
+}
+
+.thirdColumn {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    grid-column: 8/13;
+    grid-row: 2;
+    text-transform: uppercase;
+    font-size: 0.75em;
+}
+
+.thirdColumn h1 {
+    color: #38a4f3;
+}
+
+.thirdColumn h2 {
+    font-size: 1.65em;
+    margin: 0em;
+    width: 46%;
+}
+
+.thirdColumn h3 {
+    font-size: 1.4em;
+    margin: 0em;
+    width: 50%;
+}
+
+.thirdColumn h6 {
+    font-weight: bold;
+    text-transform: none;
+    font-size: 1.1em;
+    margin-top: 0.4em;
+    margin: 0em;
+    width: 52%;
+}
+
+.div-img3 img {
+    width: 54.5%;
+    height: auto;
+}
+
+hr {
+    border-top: 1px;
+    border-color: #cccccc;
+    width: 25em;
+    margin-left: -0.2em;
+    margin-top: 1em;
+}
